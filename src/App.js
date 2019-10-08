@@ -93,7 +93,7 @@ class App extends React.Component {
               </div>
             </React.Fragment>
           )} />
-          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
+          <Route exact path="/about" component={About} />
         </div>
         </Router>
     );

@@ -19,7 +19,7 @@ function Header() {
 
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              <li className="active"><Link to="/">Home</Link><span className="sr-only">(current)</span></li>
+              <li className="active"><Link to={process.env.PUBLIC_URL + '/'}>Home</Link><span className="sr-only">(current)</span></li>
               <li><Link to="/about">About</Link></li>
             </ul>
           </div>
