@@ -5,7 +5,7 @@ A series of different exercises to undestand the fundamentals of React.
 <p align="center">
   <strong>To-do List with React</strong>
 </p>
-Live version of the app: https://alvarmig.github.io/React-Fundamentals/
+Live version of the app: <a href="https://alvarmig.github.io/React-Fundamentals/" target="_blank" >https://alvarmig.github.io/React-Fundamentals/</a>
 <br>
 <br>
 This simple to-do list was created using React, the purpose was to learn the fundamentals of components, state and JSX. Boostrap 3.0 was added to style the markup and other modulues such as axiom, react-router-dom, gh-pages and uuid where used to implement some features. 
