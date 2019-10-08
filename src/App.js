@@ -75,7 +75,7 @@ class App extends React.Component {
       <Router>
         <div className="container">
           <Header />
-          <Route exact path="/" render={props => (
+          <Route exact path={process.env.PUBLIC_URL + '/'} render={props => (
             <React.Fragment>
               <div className="content-area row">
                 <div className="col-xs-8 col-xs-offset-2">  
@@ -93,7 +93,7 @@ class App extends React.Component {
               </div>
             </React.Fragment>
           )} />
-          <Route path="/about" component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
         </div>
         </Router>
     );
