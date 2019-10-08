@@ -7,6 +7,7 @@ A series of different exercises to undestand the fundamentals of React.
 </p>
 This simple to-do list was created using React, the purpose was to learn the fundamentals of components, state and JSX. Boostrap 3.0 was added to style the markup and other modulues such as axiom, react-router-dom, gh-pages and uuid where used to implement some features. 
 <br>
+
 Axiom was used to implement GET/POST request to a Fake Online REST API (https://jsonplaceholder.typicode.com/todos).
 
 React-router-dom was used to create different routes/paths for the webapp.
